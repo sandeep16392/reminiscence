@@ -1,0 +1,24 @@
+@import "../src/sass/abstracts/functions";//"../src/sass/abstracts/functions";
+@import "../src/sass/abstracts/mixins";
+@import "../src/sass/abstracts/variables";
+
+@import "../src/sass/base/base";
+@import "../src/sass/base/animations";
+@import "../src/sass/base/typography";
+@import "../src/sass/base/utilities";
+
+@import "../src/sass/components/button";
+@import "../src/sass/components/composition";
+@import "../src/sass/components/feature-box";
+@import "../src/sass/components/card";
+@import "../src/sass/components/story";
+@import "../src/sass/components/bg-video";
+@import "../src/sass/components/form";
+@import "../src/sass/components/popup";
+
+@import "../src/sass/layout/header";
+@import "../src/sass/layout/grid";
+@import "../src/sass/layout/footer";
+// @import "../src/sass/layout/navigation";
+
+// @import "pages/home";
