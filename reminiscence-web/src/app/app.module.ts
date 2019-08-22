@@ -8,6 +8,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { FeaturesComponent } from './features/features.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { StoriesComponent } from './stories/stories.component';
+import { RegisterComponent } from './register/register.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { StoriesComponent } from './stories/stories.component';
     NavigationComponent,
     FeaturesComponent,
     CategoriesComponent,
-    StoriesComponent
+    StoriesComponent,
+    RegisterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

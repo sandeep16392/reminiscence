@@ -1,0 +1,24 @@
+{
+  "name": "reminiscence-api",
+  "version": "1.0.0",
+  "description": "Photo Gallery App(Through My Lens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep16392/reminiscence.git"
+  },
+  "author": "sandeep16392",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeep16392/reminiscence/issues"
+  },
+  "homepage": "https://github.com/sandeep16392/reminiscence#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^6.2.0",
+    "mongoose": "^5.6.10"
+  }
+}
