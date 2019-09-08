@@ -10,6 +10,8 @@ import { CategoriesComponent } from './categories/categories.component';
 import { StoriesComponent } from './stories/stories.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
+import { PopupComponent } from './popup/popup.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FooterComponent } from './footer/footer.component';
     CategoriesComponent,
     StoriesComponent,
     RegisterComponent,
-    FooterComponent
+    FooterComponent,
+    PopupComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule

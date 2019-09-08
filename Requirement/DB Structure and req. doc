@@ -1,0 +1,52 @@
+Genre => 
+	1. Name : String
+	2. Features: Feature[];
+	
+User =>
+	1. FName: String;
+	2. LName: String;
+	2. DOB: String;
+	3. email: String;
+	4. contact: String;
+	5. Gender: String;
+	6. Password: String;
+	7. Interests: Genre[];
+	8. ProfilePhotoUrl: String; 
+
+Address =>
+	1. Country: String;
+	2. State: String;
+	3. City: String;
+	4. Street: String;
+
+Camera =>
+	1. Brand: String;
+	2. Model: String;
+	3. PhotoUrl: String;
+	4. Year: String;
+	5. Rating: int;
+	6. Price: decimal;
+
+Feedback:
+	1. Comment: String;
+	2. GivenBy: User;
+	3. Rating: int;
+
+Photo =>
+	1. Title: String;
+	2. Description: String;
+	3. Photographer: User;
+	4. Location: Address;
+	5. Camera: Camera;
+	6. Rating: int;
+	7. Genre: Genre;
+//	7. Comments: Feedback[];
+
+	
+====================================================================================================================
+
+Explore Gallery:-
+	1. A page will list of different kind of genres gallery has with thumbnails of photos.
+		a. calls an api and gets list of genres along with default photo of that genre. 
+	
+	

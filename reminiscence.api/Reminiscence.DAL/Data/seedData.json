@@ -1,0 +1,68 @@
+[
+  {
+    "Name": "Nature Photography",
+    "Features": [
+      {
+        "Description": "Landscapes"
+      },
+      {
+        "Description": "Close-Ups"
+      },
+      {
+        "Description": "Foliage"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "#",
+        "Description": "Default Photo",
+        "DateAdded": "04/09/2019",
+        "IsDefault": "true"
+      }
+    ]
+  },
+  {
+    "Name": "Animal Photography",
+    "Features": [
+      {
+        "Description": "Landscapes"
+      },
+      {
+        "Description": "Close-Ups"
+      },
+      {
+        "Description": "Foliage"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "#",
+        "Description": "Default Photo",
+        "DateAdded": "04/09/2019",
+        "IsDefault": "true"
+      }
+    ]
+  },
+  {
+    "Name": "Wedding Photography",
+    "Features": [
+      {
+        "Description": "Landscapes"
+      },
+      {
+        "Description": "Close-Ups"
+      },
+      {
+        "Description": "Foliage"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "#",
+        "Description": "Default Photo",
+        "DateAdded": "04/09/2019",
+        "IsDefault": "true"
+      }
+    ]
+  }
+]
