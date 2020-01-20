@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })

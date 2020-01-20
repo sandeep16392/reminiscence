@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -13,6 +15,9 @@ import { FooterComponent } from './footer/footer.component';
 import { PopupComponent } from './popup/popup.component';
 import { GalleryComponent } from './gallery/gallery.component';
 
+import { GalleryService } from './services/gallery.service';
+
+import { AppRoutes } from './routes';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,9 +33,13 @@ import { GalleryComponent } from './gallery/gallery.component';
     GalleryComponent
   ],
   imports: [
-    BrowserModule
+    HttpClientModule,
+    BrowserModule,
+    RouterModule.forRoot(AppRoutes)
   ],
-  providers: [],
+  providers: [
+    GalleryService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

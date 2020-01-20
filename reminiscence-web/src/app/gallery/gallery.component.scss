@@ -1,0 +1,37 @@
+@import "../../sass/abstracts/variables";
+@import "../../sass/abstracts/mixins";
+.categories {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 15rem 0;
+    margin-top: -10rem;
+
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
+}
+
+.gallery {
+
+    &__section{
+        @include absCenter;
+        background-image: url('../../assets/gallery-image.jpg');
+        background-color: #2d2d2d;
+
+        &-heading-content {
+            @include absCenter;
+            box-sizing: border-box;
+            display: block;
+            font-size: 6rem;
+            background-position: 50% 50%;
+            background-size: cover;
+            margin-bottom: 0;
+        }
+
+        &-content {
+            font-size: 1.8rem;
+            line-height: 160%!important;
+            font-weight: 400!important;
+            color: rgba(133, 97, 97, 0.8);
+        }
+    }
+}

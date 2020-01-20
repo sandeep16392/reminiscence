@@ -1,6 +1,11 @@
 Genre => 
 	1. Name : String
 	2. Features: Feature[];
+	3. Photos: Photo[];
+	
+Feature =>
+	1. Id: int;
+	2. Description: string;
 	
 User =>
 	1. FName: String;
