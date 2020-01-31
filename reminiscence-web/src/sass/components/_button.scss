@@ -47,6 +47,13 @@
             background-color: $color-primary;
         }
     }
+    &--grey {
+        background-color: $color-grey-dark;
+        color: $color-white;
+        &::after {
+            background-color: $color-grey-dark;
+        }
+    }
 
     &::after {
         content: "";

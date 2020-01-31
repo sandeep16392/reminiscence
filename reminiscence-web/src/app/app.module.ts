@@ -18,28 +18,34 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryService } from './services/gallery.service';
 
 import { AppRoutes } from './routes';
+import { LoginComponent } from './login/login.component';
+import { GenresComponent } from './genres/genres.component';
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    AboutComponent,
-    NavigationComponent,
-    FeaturesComponent,
-    CategoriesComponent,
-    StoriesComponent,
-    RegisterComponent,
-    FooterComponent,
-    PopupComponent,
-    GalleryComponent
-  ],
-  imports: [
-    HttpClientModule,
-    BrowserModule,
-    RouterModule.forRoot(AppRoutes)
-  ],
-  providers: [
-    GalleryService
-  ],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent,
+      HeaderComponent,
+      AboutComponent,
+      NavigationComponent,
+      FeaturesComponent,
+      CategoriesComponent,
+      StoriesComponent,
+      RegisterComponent,
+      FooterComponent,
+      PopupComponent,
+      GalleryComponent,
+      LoginComponent,
+      GenresComponent
+   ],
+   imports: [
+      HttpClientModule,
+      BrowserModule,
+      RouterModule.forRoot(AppRoutes)
+   ],
+   providers: [
+      GalleryService
+   ],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule { }
